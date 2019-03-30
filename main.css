@@ -1,0 +1,36 @@
+* {
+  font-family: 'Source Code Pro', monospace;
+}
+
+#welcome-div {
+  height: 100vh;
+}
+
+.clear-navbar {
+  background-color: transparent;
+  color: white;
+}
+
+.clear-navbar a {
+  color: white;
+}
+
+.clear-navbar a:hover {
+  color: #00a7e1;
+}
+
+.welcome-content-container {
+  min-height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  text-align: center;
+}
+
+.light-background-color {
+  background-color: #FAFAFA;
+  min-height: 100vh;
+}
