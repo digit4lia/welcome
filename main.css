@@ -32,5 +32,41 @@
 
 .light-background-color {
   background-color: #FAFAFA;
-  min-height: 100vh;
+}
+
+.section {
+  min-height: 89vh;
+}
+
+.background-red-color {
+  background-color: red;
+}
+
+.margin-top-and-bottom {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.custon-width {
+  width: 80%;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-btn {
+  width: 100%;
+}
+
+@media (max-width: 500px) {
+    h3 {
+      text-align: center;
+    }
+
+    p {
+      text-align: center;
+    }
 }
