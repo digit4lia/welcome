@@ -44,7 +44,7 @@
 
 .margin-top-and-bottom {
   margin-top: 5vh;
-  margin-bottom: 5vh;
+  margin-bottom: 0vh;
 }
 
 .custon-width {
@@ -61,11 +61,18 @@
   width: 100%;
 }
 
-@media (max-width: 500px) {
-    h3 {
-      text-align: center;
-    }
+.client-card {
+  border: none !important;
+  box-shadow: 0px 0px 20px rgb(223, 223, 223);
+}
 
+.col {
+  padding: 0 !important;
+}
+
+@media (max-width: 500px) {
+    h3,
+    h2,
     p {
       text-align: center;
     }
