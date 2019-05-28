@@ -25,6 +25,7 @@ h2{
 }
 
 #rectangulo{
+    position: absolute;
     margin-left: 50vh;
     height: 35vh;
     width: 17vw;
@@ -42,8 +43,8 @@ h2{
 }
 #contenedor{
     margin-top: 1vw;
-    margin-left: 4vw;
-    margin-right: 4vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
 }
 .seccion{
     width: auto;
@@ -60,7 +61,6 @@ h2{
     height: 36vh;
 }
 #titulo{
-    position: absolute;
     color: black;
     font: bold 4.0em 'Roboto';
 }
@@ -77,4 +77,14 @@ a.fill-div {
     height: 100%;
     width: 100%;
     text-decoration: none;
+}
+
+#primerseccion {
+    min-height: 90vh;
+    background-image: url('./images/Background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
