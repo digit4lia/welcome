@@ -1,0 +1,82 @@
+h2{
+    color: white;
+    align-items: center;
+    vertical-align: bottom;
+    margin-left: 2vh;
+}
+#em{
+    margin-top: 14vh;
+}
+#clientes{
+    position: relative;
+}
+#boton{
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+}
+#cliente{
+    margin-left: 5vh;
+    margin-top: 5vh;
+    margin-right: 10vh;
+    width: 100%;
+    height: 20vh;
+    background-color: #2EF7BE;
+}
+.digitalia-description{
+    color: gray;
+}
+
+#rectangulo{
+    margin-left: 50vh;
+    height: 35vh;
+    width: 17vw;
+    background-color:#454ADE;
+}
+#tercerseccion{
+    display:inline-flex;  
+}
+#linea{
+    margin-left: 16vh;
+    margin-top: 16vh;
+    width: 25vw;
+    height: 1vh;
+    background-color: #F46036;
+}
+#contenedor{
+    margin-top: 1vw;
+    margin-left: 14vh;
+    margin-right: 13vh;
+}
+.seccion{
+    width: auto;
+    height: auto;
+}
+#segundaseccion{
+    margin-top: 2vh;
+}
+#recOne{
+    position: relative;
+    margin-left: 9vw; 
+    background-color:#16F4D0;
+    width: 18vw;
+    height: 36vh;
+}
+#titulo{
+    position: absolute;
+    color: black;
+    font: bold 4.0em 'Roboto';
+}
+td{
+  margin-right: 20vh;
+}
+
+.send-email-button {
+    border-radius: 0 !important;
+}
+
+a.fill-div {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}

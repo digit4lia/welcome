@@ -1,160 +1,87 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Digitalia</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!-- CSS -->
-  <link rel="stylesheet" type="text/css" media="screen" href="main.css">
-  <!-- CDN de Bootstrap -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Digitalia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="index.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <!-- CDN De Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  <!-- Google font -->
-  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <script src="index.js"></script>
 </head>
 <body>
-  <!-- Primer contenedor -->
-  <div id="welcome-div">
-    <!-- Barra de navegación -->
-    <nav class="navbar navbar-expand-lg clear-navbar">
-      <a class="navbar-brand" href="#">
-        <img src="img/logo.svg" width="40" height="40" alt="">
-      </a>
-      <a class="nav-link" href="#description">Servicios</a>
-      <a class="nav-link" href="#contact">Contacto</a>
+    <nav class="navbar navbar-light">
+        <a class="navbar-brand" href="#">
+            <img src="./images/logo.png" width="60" height="60" alt="">
+        </a>
     </nav>
-    <!-- Contenido principal -->
-    <div class="welcome-content-container">
-      <!-- Título -->
-      <h1 class="text-white font-weight-bold">Digitalia</h1>
-      <!-- Subtítulo -->
-      <p class="text-white">La revolución digital es una realidad, las empresas de tecnología van a destruir a las empresas tradicionales. Nosotros ayudamos a las empresas a construir software para revolucionar su forma de operar.</p>
-    </div>
-  </div>
-  <!-- ¿Qué hacemos? -->
-  <div class="light-background-color">
-    <br>
-    <div id="description" class="container">
-      <!-- Título -->
-      <div class="row">
-        <div class="col-sm">
+    <div id= "contenedor">
+        <div id="primerseccion" >
+            <div id="recOne"></div>
+            <div class="d-flex align-items-end">
+                <h1 id="titulo">Digitalia</h1>
+            </div>        
+            <br><br>
         </div>
-        <div class="col-sm">
-          <br>
-          <h2 class="text-center font-weight-bold">¿Qué hacemos?</h2>
-          <br>
+        <div class="seccion" id="segundaseccion">
+            <h4 class="digitalia-description">La revolución digital es una realidad, las empresas de tecnología van a destruir a las 
+                empresas tradicionales. Nosotros ayudamos a las empresas a construir software para revolucionar su 
+                forma de operar.</h4>
         </div>
-        <div class="col-sm">
+        <div class="seccion" id="tercerseccion">
+            <div id="linea" ></div>
+            <div id="rectangulo"></div>
         </div>
-      </div>
-      <!-- Sistemas -->
-      <div class="row">
-        <div class="col-sm-12 text-center align-self-center margin-top-and-bottom">
-          <p clas="card-text">Construimos Software a la medida para resolver los problemas de tu negocio, con el Software a la medida podrás tener una ventaja competitiva sobre otros negocios en tu campo.</p>
+        <div class=" seccion" id="cuartaseccion">
+            <br>
+            <h4><b>Servicios</b></h4>
+            <br>
+            <h5>Creamos Software que se adapta a tus necesidades</h5>
         </div>
-      </div>
-      <!-- Apps móviles -->
-      <div class="row section">
-        <div class="col-sm-6 align-self-center">
-          <h3 class="card-title"><strong>Apps</strong></h3>
-          <p clas="card-text">Hacemos apps para iOS y Android con las funcionalidad que requieras. Hacemos uso de APIs de Google y del hardware del teléfono para que tu app tenga la mejor experiencia de usuario.</p>
-        </div>
-        <div class="col-sm-6 text-center flex-center">
-          <img class="img-fluid" src="img/smartphone.png" style="width: 80%;">
-        </div>
-      </div>
-      <!-- Apps web -->
-      <div class="row section">
-        <div class="col-sm-6 align-self-center margin-top-and-bottom">
-          <h3 class="card-title"><strong>Web Apps</strong></h3>
-          <p clas="card-text">Hacemos aplicaciones web que se pueden usar desde cualquier navegador y con las que tus usuarios pueden interactuar.</p>
-        </div>
-        <div class="col-sm-6 text-center flex-center">
-          <img class="img-fluid" src="img/laptop.png" style="width: 80%;">
-        </div>
-      </div>
-      <!-- Clientes -->
-      <div class="row">
-        <div class="col-sm">
-        </div>
-        <div class="col-sm">
-          <br>
-          <h2 class="text-center font-weight-bold">Clientes</h2>
-          <br>
-        </div>
-        <div class="col-sm">
-        </div>
-      </div>
-      <!-- Contenedor para mostrar los distintos clientes -->
-      <div class ="container">
-        <div class="row">
-          <!-- Cliente 1 -->
-          <div class="col col-sm-12 col-md-4 col-lg-3">
-            <div class="card client-card">
-              <img class="card-img-top" src="./img/logos/biodent.png" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title"><strong>Biodent</strong></h5>
-                <p class="card-text text-left">Una empresa de salud dental con un plan para acercar la educación para la salud a todos los niños de Oaxaca.</p>
-                <a href="./clients/biodent.html" class="btn btn-dark">Ver más</a>
+        <div class="seccion" id="quintaseccion">
+            <br><br>
+                <div class="row">
+                    <div class="col-sm-12 col-md-4">
+                     <img src="https://img.icons8.com/ios/100/000000/change-theme.png"width="100" height="100" alt="">
+                     <br><br>
+                     <h5><strong>Desarrollo web</strong></h5>
+                     <h6>Diseñamos y creamos aplicaciones  y páginas <br> web.</h6>
+                    </div>
+                    <div class="colsm-12 col-md-4">
+                        <img src="https://img.icons8.com/dotty/100/000000/two-smartphones.png"width="100" height="100" alt="">
+                        <br><br>
+                        <h5><strong>Desarrollo móvil</strong></h5>
+                         <h6>Creamos aplicaciones nativas para iOS y Android. </h6>
+                    </div>
+                    <div class="col-sm-12 col-md-4">
+                        <img src="https://img.icons8.com/wired/100/000000/server.png"width="100" height="100" alt="">
+                        <br><br>
+                        <h5><strong>Desarrollo backend</strong></h5>
+                        <h6>Generamos servicios web y bases de datos.</h6>
+                    </div>
               </div>
-            </div>
-          </div>
-          <!-- Cliente 2 -->
-          <div class="col-sm-12 col-md-4 col-lg-3">
-          </div>
-          <!-- Cliente 3 -->
-          <div class="col-sm-12 col-md-4 col-lg-3">
-          </div>
-          <!-- Cliente 4 -->
-          <div class="col-sm-12 col-md-4 col-lg-3">
-          </div>
-        </div>
-      </div>
-      <!-- Contacto -->
-      <div id="contact" class="row">
-        <div class="col-sm">
-        </div>
-        <div class="col-sm">
-          <br>
-          <br>
-          <br>
-          <h2 class="text-center font-weight-bold">Contacto</h2>
-          <br>
-          <br>
-          <p class="text-center">digit4lia@gmail.com</p>
-          <a href="mailto:digit4lia@gmail.com">
-            <button type="button" class="btn btn-dark custom-btn">Enviar email</button>
-          </a>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-        </div>
-        <div class="col-sm">
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Animaciones -->
-  <script src="src/three.r92.min.js"></script>
-  <script src="src/vanta.net.min.js"></script>
-  <script>
-    VANTA.NET({
-      el: "#welcome-div",
-      points: 20.00,
-      maxDistance: 20.00,
-      spacing: 20.00
-    })
-  </script>
+              <div class="seccion"id="clientes">
+                  <br><br>  <br>
+                <h4><b>Clientes</b></h4>
+                <div onclick="location.href='./clients/biodent.html';" style="cursor: pointer;" class="d-flex justify-content-between align-items-end" id="cliente">
+                    <h2>Biodent</h2>
+                </div>
+                <br><br>
+                <h4><b>Contacto</b></h4>
+                <div id="em" class="d-flex justify-content-center align-items-center">
+                    <h5>digit4lia@gmail.com</h5>
+                </div>
+                <div class="d-flex justify-content-center align-items-center">
+                    <a href="mailto:digit4lia@gmail.com">
+                        <button type="button" id="boton"class="btn btn-dark send-email-button">Enviar email</button>
+                    </a>
+                </div>
+              </div>
+           </div>
+        </div>                   
+    </div>   
 </body>
 </html>
